@@ -51,3 +51,7 @@ This should track the progress made to this system and when it happened, for
 posterity:
 
 * 22 May 2018: This README created
+
+### Libraries
+
+* [Skyfield](http://rhodesmill.org/skyfield/) 
