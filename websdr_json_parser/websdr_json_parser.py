@@ -159,6 +159,7 @@ def main():
 
     print sdrs.search(3333.0, (41.6042, -112.292))
 
+    return 0
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main() or 0)  # pragma: nocover
