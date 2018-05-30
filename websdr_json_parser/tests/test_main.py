@@ -29,3 +29,5 @@ def test_main():
     sys.argv = [orig_argv[0]]
     result = main()
     assert(result == -1)
+
+    sys.argv = orig_argv
